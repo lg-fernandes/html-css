@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com caixas</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: left;
+            margin-top: -17px;
+        }
+        nav > a {
+            display: inline-block;
+            padding: 7px;
+            color: white;
+            text-decoration: none;
+            background-color: rgb(59, 105, 105);
+            margin: -12px 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
+        }
+        #tp {
+            display: block;
+            padding-top: 15px;
+            margin-top: 0px;
+            text-align: center;
+            color: white;
+            font-size: 32pt;
+        }
+
+        header {
+            height: 100px;
+            border-radius: 10px;
+            background-color: darkslategray;
+        }
+        #slogan {
+            text-align: center;
+        }
+        .produto{
+            border: 5px solid black;
+
+            width: 150px;
+            margin-inline: 70px;
+
+        }
+        main {
+
+        }
+        footer {
+            color: white;
+            background-color: darkslategray;
+            text-align: center;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="tp">Pratas DF</h1>
+        <nav>
+            <a href="https://www.instagram.com/pratasdf" target="_blank" rel="external">Instagram</a>
+            <a href="https://wa.me/5561996426869" target="_blank" rel="external">Whatsapp</a>
+        </nav>
+    </header>
+    <main>
+        <section id="slogan">
+            <p>Desde 2019 trazendo o brilho que você merece no seu dia a dia.</p>
+        </section>
+        <section>
+            <img class="produto" src="imagens/Escam1,5D.jpg" alt="cordao 1,5">
+            <img class="produto" src="imagens/Escam2C.jpg" alt="cordao 2">
+            <img class="produto" src="imagens/Escam3D.jpg" alt="cordao 3">        
+        </section>
+        
+        
+    </main>
+    <footer>
+        <p>&#169;PratasDF todos os direitos reservados.</p>
+
+
+    </footer>
+</body>
+</html>
