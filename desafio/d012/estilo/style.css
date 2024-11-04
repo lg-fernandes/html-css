@@ -1,11 +1,60 @@
 @charset "UTF-8";
-
+:root {
+    --fonte: 'Atma';
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 header{
-
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+section {
+    font-size: 1.5em;
+    font-family: var(--fonte);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 body {
-
+    min-height: 100vh;
+    background-color: rgb(231, 231, 231);
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.img {
+    background-color: darkgoldenrod;
+    color: white;
+}
+section.img > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: black;
+    width: 400px;
 }
 footer {
+    background-color: black;
+    color: white;
     text-align: center;
+    padding: 10px;
 }
